@@ -1,8 +1,3 @@
 == README
 
 Dartmouth College Library Customized Blacklight
-
-To delete all documents from Solr:
-
-curl "http://localhost:8983/solr/blacklight-core/update?stream.body=%3Cdelete%3E%3Cquery%3E%2A%3A%2A%3C%2Fquery%3E%3C%2Fdelete%3E&commit=true"
-
