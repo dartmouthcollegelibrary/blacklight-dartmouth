@@ -5,9 +5,14 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: sqlite3
-  pool: 5
-  timeout: 5000
+  url: <%= ENV['DB_URL'] %>
+  adapter: <%= ENV['DB_ADAPTER'] %>
+  database: <%= ENV['DB_NAME'] %>
+  user: <%= ENV['DB_USER'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
+  pool: <%= ENV['DB_POOL'] %>
+  timeout: <%= ENV['DB_TIMEOUT'] %>
+  
 
 development:
   <<: *default

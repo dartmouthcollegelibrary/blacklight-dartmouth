@@ -8,9 +8,11 @@ gem 'rails', '4.2.7'
 
 gem 'blacklight', "~> 6.0"
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem 'blacklight_range_limit'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+#gem 'sqlite3'
+gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
