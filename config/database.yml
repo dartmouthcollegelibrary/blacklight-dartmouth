@@ -1,10 +1,13 @@
 # SQLite version 3.x
-#   gem install sqlite3
+# gem install sqlite3
 #
-#   Ensure the SQLite 3 gem is defined in your Gemfile
-#   gem 'sqlite3'
+# Ensure the SQLite 3 gem is defined in your Gemfile
+# gem 'sqlite3'
 #
-default: &default
+# Repeated nodes (objects) are first identified by an anchor (marked with the ampersand - “&”),
+# and are then aliased (referenced with an asterisk - “*”) thereafter.
+
+defaultpg: &default
   url: <%= ENV['DB_URL'] %>
   adapter: <%= ENV['DB_ADAPTER'] %>
   database: <%= ENV['DB_NAME'] %>
@@ -12,19 +15,23 @@ default: &default
   password: <%= ENV['DB_PASSWORD'] %>
   pool: <%= ENV['DB_POOL'] %>
   timeout: <%= ENV['DB_TIMEOUT'] %>
-  
+
+defaultsqlite: &defaultsqlite
+  adapter: sqlite3
+  pool: 5
+  timeout: 5000
 
 development:
-  <<: *default
+  <<: *defaultsqlite
   database: db/development.sqlite3
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-  <<: *default
+  <<: *defaultsqlite
   database: db/test.sqlite3
 
 production:
   <<: *default
-  database: db/production.sqlite3
+#  database: db/production.sqlite3

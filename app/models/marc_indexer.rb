@@ -1,7 +1,10 @@
 $:.unshift './config'
+require_relative 'dcl_macros'
+
 class MarcIndexer < Blacklight::Marc::Indexer
-  # this mixin defines lambda facotry method get_format for legacy marc formats
+  # this mixin defines lambda factory method get_format for legacy marc formats
   include Blacklight::Marc::Indexer::Formats
+  include DclMacros
 
   def initialize
     super
@@ -13,8 +16,8 @@ class MarcIndexer < Blacklight::Marc::Indexer
       provide 'solr_writer.max_skipped', -1
     end
 
-    to_field "id", trim(extract_marc("001"), :first => true)
-
+    #to_field "id", trim(extract_marc("001"), :first => true)
+    to_field "id", record_id
 
     to_field 'marc_display', get_xml
     to_field "text", extract_all_marc_values do |r, acc|
