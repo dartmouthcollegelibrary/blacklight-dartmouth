@@ -14,6 +14,8 @@ class MarcIndexer < Blacklight::Marc::Indexer
       provide "marc_source.type", "binary"
       # set this to be non-negative if threshold should be enforced
       provide 'solr_writer.max_skipped', -1
+      # msm added
+      provide 'log.file', 'traject.log'
     end
 
     #to_field "id", trim(extract_marc("001"), :first => true)

@@ -13,9 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20160808194853) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "bookmarks", force: :cascade do |t|
     t.integer  "user_id",       null: false
     t.string   "user_type"
@@ -26,8 +23,8 @@ ActiveRecord::Schema.define(version: 20160808194853) do
     t.datetime "updated_at",    null: false
   end
 
-  add_index "bookmarks", ["document_id"], name: "index_bookmarks_on_document_id", using: :btree
-  add_index "bookmarks", ["user_id"], name: "index_bookmarks_on_user_id", using: :btree
+  add_index "bookmarks", ["document_id"], name: "index_bookmarks_on_document_id"
+  add_index "bookmarks", ["user_id"], name: "index_bookmarks_on_user_id"
 
   create_table "searches", force: :cascade do |t|
     t.binary   "query_params"
@@ -37,6 +34,6 @@ ActiveRecord::Schema.define(version: 20160808194853) do
     t.datetime "updated_at",   null: false
   end
 
-  add_index "searches", ["user_id"], name: "index_searches_on_user_id", using: :btree
+  add_index "searches", ["user_id"], name: "index_searches_on_user_id"
 
 end
