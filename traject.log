@@ -2,3 +2,11 @@
 2016-11-02T15:45:12-04:00  INFO    Indexer with 1 processing threads, reader: Traject::MarcReader and writer: Traject::SolrJsonWriter
 2016-11-02T15:45:12-04:00  INFO Traject::SolrJsonWriter sending commit to solr at url http://127.0.0.1:8983/solr/blacklight-core/update/json...
 2016-11-02T15:45:12-04:00  INFO finished Indexer#process: 10 records in 0.370 seconds; 27.0 records/second overall.
+2016-11-14T16:13:46-05:00  INFO traject (2.3.2) executing with: `-c /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_sample.rb ./testdata/dcRecds10.mrc`
+2016-11-14T16:13:46-05:00  INFO Reading from ./testdata/dcRecds10.mrc
+2016-11-14T16:13:46-05:00  INFO    Indexer with 2 processing threads, reader: Traject::MarcReader and writer: Traject::DebugWriter
+2016-11-14T16:13:46-05:00  INFO finished Indexer#process: 10 records in 0.026 seconds; 382.3 records/second overall.
+2016-11-14T16:16:51-05:00  INFO traject (2.3.2) executing with: `-c /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_sample.rb ./testdata/dcRecds10.mrc`
+2016-11-14T16:16:51-05:00  INFO Reading from ./testdata/dcRecds10.mrc
+2016-11-14T16:16:51-05:00  INFO    Indexer with 2 processing threads, reader: Traject::MarcReader and writer: Traject::DebugWriter
+2016-11-14T16:16:51-05:00  INFO finished Indexer#process: 10 records in 0.012 seconds; 805.2 records/second overall.

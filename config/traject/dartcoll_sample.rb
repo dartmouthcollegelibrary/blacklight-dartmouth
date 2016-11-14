@@ -23,7 +23,8 @@
 #  records into the sample solr index
 #
 
-
+require 'traject/marc_reader'
+require 'traject/debug_writer'
 
 # To have access to various built-in logic
 # for pulling things out of MARC21, like `marc_languages`
@@ -34,7 +35,7 @@ extend  Traject::Macros::Marc21Semantics
 require 'traject/macros/marc_format_classifier'
 extend Traject::Macros::MarcFormats
 
-require '/app/models/dcl_macros'
+require_relative '../../app/models/dcl_macros'
 extend DclMacros
 
 # In this case for simplicity we provide all our settings, including
@@ -43,7 +44,17 @@ extend DclMacros
 # files however you like, you can call traject with as many
 # config files as you like, `traject -c one.rb -c two.rb -c etc.rb`
 settings do
-  provide "solr.url", "http://localhost:8983/solr/blacklight-core"
+  #provide "solr.url", "http://localhost:8983/solr/blacklight-core"
+  provide "reader_class_name", "Traject::MarcReader"
+  provide "marc_source.type", "binary"
+  provide "writer_class_name", "Traject::DebugWriter"
+  provide "output_file", "debug_output.txt"
+  provide 'processing_thread_pool', 2
+
+  # Right now, logging is going to $stderr. Uncomment
+  # this line to send it to a file
+
+  provide 'log.file', 'traject.log'
 end
 
 # Extract first 001, then supply code block to add "bib_" prefix to it
@@ -55,7 +66,7 @@ to_field "id", record_id
 # An exact literal string, always this string:
 to_field "source_t",              literal("traject_test_last")
 
-to_field "marc_display",        serialized_marc(:format => "xml", :binary_escape => false, :allow_oversized => true)
+#to_field "marc_display",        serialized_marc(:format => "xml", :binary_escape => false, :allow_oversized => true)
 
 to_field "text",                extract_all_marc_values
 
