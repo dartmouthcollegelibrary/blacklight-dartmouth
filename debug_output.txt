@@ -16,45 +16,6 @@ b6025444     title_display             The wind : for piano (2006-2007)
 b6025444     title_sort                wind : for piano (2006-2007)
 b6025444     title_t                   The wind :
 
-b6217080     author_facet              Atwell, Hayley, 1982- | D'Arcy, James, 1975- | Murray, Chad Michael, 1981- | Gjokaj, Enver | Regan, Bridget | Cooper, Dominic, 1978- | Markus, Christopher | McFeely, Stephen | Lee, Stan, 1922- | ABC Studios | ABC Television Network | Marvel Productions | Buena Vista Home Entertainment (Firm)
-b6217080     author_sort               Agent Carter The complete first season an ABC Studios production ; Marvel Television ; [created by Christopher Markus & Stephen McFeeley].
-b6217080     id                        b6217080
-b6217080     language_facet            English
-b6217080     material_type_display     2 videodiscs (approximately 335 minutes)
-b6217080     pub_date                  2015
-b6217080     publisher_t               Burbank, California : Distributed by Buena Vista Home Entertainment,
-b6217080     source_t                  traject_test_last
-b6217080     subject_t                 Espionage Drama. | Good and evil Drama. | Action and adventure television programs. | Spy television programs. | Science fiction television programs. | Television programs. | Television programs for the hearing impaired.
-b6217080     subject_topic_facet       Espionage | Good and evil
-b6217080     text                      Marvel Agent Carter (Television program). Season 1. | Agent Carter. The complete first season / an ABC Studios production ; Marvel Television ; [created by Christopher Markus & Stephen McFeeley]. | Agent Carter. Season one | Title appears on resource as: Marvel Agent Carter. The complete first season | Also known as: Marvel's Agent Carter. The complete first season | Burbank, California : Distributed by Buena Vista Home Entertainment, [2015] | 2 videodiscs (approximately 335 minutes) : sound, color ; 4 3/4 in. | two-dimensional moving image tdi rdacontent | video v rdamedia | videodisc vd rdacarrier | digital optical surround 5.1 Dolby rda | video file DVD video rda | Television program. | English dialogue; English SDH (subtitles for the deaf and hard of hearing). | Creators: Christopher Markus, Stephen McFeely; writers: Jack Kirby, Stan Lee. | Disc 1, episodes 1-5. Now is not the end ; Bridge and tunnel -- Time and tide -- The Blitzkrieg button -- The iron ceiling -- Disc 2, episodes 6-8. A sin to err -- Snafu -- Velediction. | Bonus features: Bloopers of Agent Carter | Hayley Atwell, James D'Arcy, Chad Michael Murray, Enver Gjokaj, Bridget Regan, Dominic Cooper. | Rating: TV-PG LV. | Marvel's latest television series, Agent Carter, takes viewers on the journey Agent Peggy Carter of Captain America fame. After the war, Peggy finds herself begrudgingly doing administrative work for the Strategic Science Reserve while coping with the loss of her love, Steve Rogers. Peggy's life takes an unexpected turn when she is contacted by Howard Stark and given a  mission to find those who accused Stark of releasing weapons of mass destruction. With the help of Stark's butler, Jarvis, Peggy must secretly find and destroy the lost weapons to clear the Stark name, all while putting her own life and freedom on the line. | DVD, NTSC, region 1, widescreen (16x9 ; 1.78:1); 5.1 Dolby digital. | Espionage Drama. | Good and evil Drama. | Action and adventure television programs. lcgft | Spy television programs. lcgft | Science fiction television programs. lcgft | Television programs. lcgft | Television programs for the hearing impaired. lcgft | Atwell, Hayley, 1982- | D'Arcy, James, 1975- | Murray, Chad Michael, 1981- | Gjokaj, Enver. | Regan, Bridget. | Cooper, Dominic, 1978- | Markus, Christopher. | McFeely, Stephen. | Lee, Stan, 1922- | ABC Studios. | ABC Television Network. | Marvel Productions. | Buena Vista Home Entertainment (Firm)
-b6217080     text_extra_boost_t        Now is not the end ; Bridge and tunnel -- Time and tide -- The Blitzkrieg button -- The iron ceiling -- A sin to err -- Snafu -- Velediction.
-b6217080     title1_t                  Agent Carter.
-b6217080     title2_t                  Marvel Agent Carter (Television program). Season 1. | The complete first season / | Agent Carter. Season one | Marvel Agent Carter. The complete first season | Marvel's Agent Carter. The complete first season
-b6217080     title3_t                  Now is not the end ; | Bridge and tunnel -- | Time and tide -- | The Blitzkrieg button -- | The iron ceiling -- | A sin to err -- | Snafu -- | Velediction.
-b6217080     title_display             Agent Carter
-b6217080     title_sort                Agent Carter
-b6217080     title_t                   Agent Carter.
-
-b6025508     author_display            Rzewski, Frederic.
-b6025508     author_facet              Rzewski, Frederic
-b6025508     author_sort               Rzewski, Frederic.   Night crossing with fisherman two pianos Frederic Rzewski
-b6025508     discipline_facet          Music
-b6025508     id                        b6025508
-b6025508     instrumentation_facet     Piano
-b6025508     language_facet            English
-b6025508     material_type_display     1 score (38 pages)
-b6025508     pub_date                  2014
-b6025508     publisher_t               Lebanon, NH : Frog Peak Music,
-b6025508     source_t                  traject_test_last
-b6025508     subject_t                 Piano music (Pianos (2)) Scores. | Music Manuscripts Facsimiles. | Arabian nights Musical settings. | Chamber music. | Scores.
-b6025508     subject_topic_facet       Piano music (Pianos (2)) | Music | Arabian nights
-b6025508     text                      Rzewski, Frederic. | Night crossing with fisherman : two pianos / Frederic Rzewski. | Lebanon, NH : Frog Peak Music, [2014] | 1 score (38 pages) ; 22 x 28 cm | notated music ntm rdacontent | unmediated n rdamedia | volume nc rdacarrier | piano 2 2 lcmpt | Spoken text (3rd movement) in English. | Staff notation. | Cover title. | Text of the 3rd movement adapted from The Arabian nights. | Night -- Crossing -- Fisherman. | Piano music (Pianos (2)) Scores. | Music Manuscripts Facsimiles. | Arabian nights Musical settings. | Chamber music. lcgft | Scores. lcgft
-b6025508     text_extra_boost_t        Night -- Crossing -- Fisherman.
-b6025508     title1_t                  Night crossing with fisherman : two pianos /
-b6025508     title_display             Night crossing with fisherman : two pianos
-b6025508     title_sort                Night crossing with fisherman : two pianos
-b6025508     title_t                   Night crossing with fisherman :
-
 b6025510     author_display            Gann, Kyle.
 b6025510     author_facet              Gann, Kyle
 b6025510     author_sort               Gann, Kyle.   Convent at Tepoztlan
@@ -94,6 +55,26 @@ b6199862     title2_t                  Luther and his opponents
 b6199862     title_display             Ink against the devil : Luther and his opponents
 b6199862     title_sort                Ink against the devil : Luther and his opponents
 b6199862     title_t                   Ink against the devil :
+
+b6025508     author_display            Rzewski, Frederic.
+b6025508     author_facet              Rzewski, Frederic
+b6025508     author_sort               Rzewski, Frederic.   Night crossing with fisherman two pianos Frederic Rzewski
+b6025508     discipline_facet          Music
+b6025508     id                        b6025508
+b6025508     instrumentation_facet     Piano
+b6025508     language_facet            English
+b6025508     material_type_display     1 score (38 pages)
+b6025508     pub_date                  2014
+b6025508     publisher_t               Lebanon, NH : Frog Peak Music,
+b6025508     source_t                  traject_test_last
+b6025508     subject_t                 Piano music (Pianos (2)) Scores. | Music Manuscripts Facsimiles. | Arabian nights Musical settings. | Chamber music. | Scores.
+b6025508     subject_topic_facet       Piano music (Pianos (2)) | Music | Arabian nights
+b6025508     text                      Rzewski, Frederic. | Night crossing with fisherman : two pianos / Frederic Rzewski. | Lebanon, NH : Frog Peak Music, [2014] | 1 score (38 pages) ; 22 x 28 cm | notated music ntm rdacontent | unmediated n rdamedia | volume nc rdacarrier | piano 2 2 lcmpt | Spoken text (3rd movement) in English. | Staff notation. | Cover title. | Text of the 3rd movement adapted from The Arabian nights. | Night -- Crossing -- Fisherman. | Piano music (Pianos (2)) Scores. | Music Manuscripts Facsimiles. | Arabian nights Musical settings. | Chamber music. lcgft | Scores. lcgft
+b6025508     text_extra_boost_t        Night -- Crossing -- Fisherman.
+b6025508     title1_t                  Night crossing with fisherman : two pianos /
+b6025508     title_display             Night crossing with fisherman : two pianos
+b6025508     title_sort                Night crossing with fisherman : two pianos
+b6025508     title_t                   Night crossing with fisherman :
 
 b6200006     author_display            Altamira, Rafael, 1866-1951.
 b6200006     author_facet              Altamira, Rafael, 1866-1951 | Serrano Migall�on, Fernando | Altamira, Pilar
@@ -203,4 +184,23 @@ b6216642     title1_t                  Teor�ia y pr�actica de la adaptaci�
 b6216642     title_display             Teor�ia y pr�actica de la adaptaci�on f�ilmica
 b6216642     title_sort                Teor�ia y pr�actica de la adaptaci�on f�ilmica
 b6216642     title_t                   Teor�ia y pr�actica de la adaptaci�on f�ilmica /
+
+b6217080     author_facet              Atwell, Hayley, 1982- | D'Arcy, James, 1975- | Murray, Chad Michael, 1981- | Gjokaj, Enver | Regan, Bridget | Cooper, Dominic, 1978- | Markus, Christopher | McFeely, Stephen | Lee, Stan, 1922- | ABC Studios | ABC Television Network | Marvel Productions | Buena Vista Home Entertainment (Firm)
+b6217080     author_sort               Agent Carter The complete first season an ABC Studios production ; Marvel Television ; [created by Christopher Markus & Stephen McFeeley].
+b6217080     id                        b6217080
+b6217080     language_facet            English
+b6217080     material_type_display     2 videodiscs (approximately 335 minutes)
+b6217080     pub_date                  2015
+b6217080     publisher_t               Burbank, California : Distributed by Buena Vista Home Entertainment,
+b6217080     source_t                  traject_test_last
+b6217080     subject_t                 Espionage Drama. | Good and evil Drama. | Action and adventure television programs. | Spy television programs. | Science fiction television programs. | Television programs. | Television programs for the hearing impaired.
+b6217080     subject_topic_facet       Espionage | Good and evil
+b6217080     text                      Marvel Agent Carter (Television program). Season 1. | Agent Carter. The complete first season / an ABC Studios production ; Marvel Television ; [created by Christopher Markus & Stephen McFeeley]. | Agent Carter. Season one | Title appears on resource as: Marvel Agent Carter. The complete first season | Also known as: Marvel's Agent Carter. The complete first season | Burbank, California : Distributed by Buena Vista Home Entertainment, [2015] | 2 videodiscs (approximately 335 minutes) : sound, color ; 4 3/4 in. | two-dimensional moving image tdi rdacontent | video v rdamedia | videodisc vd rdacarrier | digital optical surround 5.1 Dolby rda | video file DVD video rda | Television program. | English dialogue; English SDH (subtitles for the deaf and hard of hearing). | Creators: Christopher Markus, Stephen McFeely; writers: Jack Kirby, Stan Lee. | Disc 1, episodes 1-5. Now is not the end ; Bridge and tunnel -- Time and tide -- The Blitzkrieg button -- The iron ceiling -- Disc 2, episodes 6-8. A sin to err -- Snafu -- Velediction. | Bonus features: Bloopers of Agent Carter | Hayley Atwell, James D'Arcy, Chad Michael Murray, Enver Gjokaj, Bridget Regan, Dominic Cooper. | Rating: TV-PG LV. | Marvel's latest television series, Agent Carter, takes viewers on the journey Agent Peggy Carter of Captain America fame. After the war, Peggy finds herself begrudgingly doing administrative work for the Strategic Science Reserve while coping with the loss of her love, Steve Rogers. Peggy's life takes an unexpected turn when she is contacted by Howard Stark and given a  mission to find those who accused Stark of releasing weapons of mass destruction. With the help of Stark's butler, Jarvis, Peggy must secretly find and destroy the lost weapons to clear the Stark name, all while putting her own life and freedom on the line. | DVD, NTSC, region 1, widescreen (16x9 ; 1.78:1); 5.1 Dolby digital. | Espionage Drama. | Good and evil Drama. | Action and adventure television programs. lcgft | Spy television programs. lcgft | Science fiction television programs. lcgft | Television programs. lcgft | Television programs for the hearing impaired. lcgft | Atwell, Hayley, 1982- | D'Arcy, James, 1975- | Murray, Chad Michael, 1981- | Gjokaj, Enver. | Regan, Bridget. | Cooper, Dominic, 1978- | Markus, Christopher. | McFeely, Stephen. | Lee, Stan, 1922- | ABC Studios. | ABC Television Network. | Marvel Productions. | Buena Vista Home Entertainment (Firm)
+b6217080     text_extra_boost_t        Now is not the end ; Bridge and tunnel -- Time and tide -- The Blitzkrieg button -- The iron ceiling -- A sin to err -- Snafu -- Velediction.
+b6217080     title1_t                  Agent Carter.
+b6217080     title2_t                  Marvel Agent Carter (Television program). Season 1. | The complete first season / | Agent Carter. Season one | Marvel Agent Carter. The complete first season | Marvel's Agent Carter. The complete first season
+b6217080     title3_t                  Now is not the end ; | Bridge and tunnel -- | Time and tide -- | The Blitzkrieg button -- | The iron ceiling -- | A sin to err -- | Snafu -- | Velediction.
+b6217080     title_display             Agent Carter
+b6217080     title_sort                Agent Carter
+b6217080     title_t                   Agent Carter.
 
