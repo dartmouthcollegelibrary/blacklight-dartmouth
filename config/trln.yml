@@ -10,7 +10,7 @@ development:
         # will add '-c' switch in front of each
         # note paths not starting with / will be interpreted relative
         # to this file (Rails.root/config/traject)
-                config_files: [ "dartcoll_sample.rb" ]
+                config_files: [ "dartcoll_mapping.rb" ]
 
 production:
         traject:

@@ -1,7 +1,7 @@
 require 'yaml'
 require 'traject/command_line'
 
-# rake trln:index testData/DCrecds10.mrc
+# Usage: rake trln:index testData/DCrecds10.mrc
 
 config = YAML.load(
 		File.read(
