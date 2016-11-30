@@ -1,5 +1,8 @@
 # Usage: traject -c config/traject/dartcoll_mapping.rb [list of paths to MARC files]
 
+# $: means $LOAD_PATH, .unshift means add to the beginning, need this line to find translation maps
+$:.unshift './config'
+
 require 'traject/marc_reader'
 require 'traject/debug_writer'
 
@@ -11,6 +14,11 @@ extend  Traject::Macros::Marc21Semantics
 # To have access to the traject marc format/carrier classifier
 require 'traject/macros/marc_format_classifier'
 extend Traject::Macros::MarcFormats
+
+# bring in needed functions
+# found in blacklight/marc/indexer
+ATOZ = ('a'..'z').to_a.join('')
+ATOU = ('a'..'u').to_a.join('')
 
 # this mixin defines lambda factory method get_format for legacy marc formats
 require 'blacklight/marc/indexer/formats'
@@ -65,3 +73,58 @@ to_field 'subtitle_t', extract_marc('245b')
 to_field 'subtitle_display', extract_marc('245b', :trim_punctuation => true, :alternate_script=>false)
 to_field 'subtitle_vern_display', extract_marc('245b', :trim_punctuation => true, :alternate_script=>:only)
 
+# additional title fields
+to_field 'title_addl_t', extract_marc(%W{
+        245abnps
+        130#{ATOZ}
+        240abcdefgklmnopqrs
+        210ab
+        222ab
+        242abnp
+        243abcdefgklmnopqrs
+        246abcdefgnp
+        247abcdefgnp
+      }.join(':'))
+to_field 'title_added_entry_t', extract_marc(%W{
+      700gklmnoprst
+      710fgklmnopqrst
+      711fgklnpst
+      730abcdefgklmnopqrst
+      740anp
+    }.join(':'))
+to_field 'title_series_t', extract_marc("440anpv:490av")
+to_field 'title_sort', marc_sortable_title
+
+# Author fields
+to_field 'author_t', extract_marc("100abcegqu:110abcdegnu:111acdegjnqu")
+to_field 'author_addl_t', extract_marc("700abcegqu:710abcdegnu:711acdegjnqu")
+to_field 'author_display', extract_marc("100abcdq:110#{ATOZ}:111#{ATOZ}", :alternate_script=>false)
+to_field 'author_vern_display', extract_marc("100abcdq:110#{ATOZ}:111#{ATOZ}", :alternate_script=>:only)
+to_field 'author_sort', marc_sortable_author
+
+# Subject fields
+to_field 'subject_t', extract_marc(%W(
+      600#{ATOU}
+      610#{ATOU}
+      611#{ATOU}
+      630#{ATOU}
+      650abcde
+      651ae
+      653a:654abcde:655abc
+    ).join(':'))
+to_field 'subject_addl_t', extract_marc("600vwxyz:610vwxyz:611vwxyz:630vwxyz:650vwxyz:651vwxyz:654vwxyz:655vwxyz")
+to_field 'subject_topic_facet', extract_marc("600abcdq:610ab:611ab:630aa:650aa:653aa:654ab:655ab", :trim_punctuation => true)
+to_field 'subject_era_facet',  extract_marc("650y:651y:654y:655y", :trim_punctuation => true)
+to_field 'subject_geo_facet',  extract_marc("651a:650z",:trim_punctuation => true )
+
+# Publication fields
+to_field 'published_display', extract_marc('260a', :trim_punctuation => true, :alternate_script=>false)
+to_field 'published_vern_display', extract_marc('260a', :trim_punctuation => true, :alternate_script=>:only)
+to_field 'pub_date', marc_publication_date
+
+# Call Number fields
+to_field 'lc_callnum_display', extract_marc('050ab:090ab', :first => true)
+to_field 'lc_1letter_facet', extract_marc('050ab:090ab', :first=>true, :translation_map=>'callnumber_map') do |rec, acc|
+  # Just get the first letter to send to the translation map
+  acc.map!{|x| x[0]}
+end

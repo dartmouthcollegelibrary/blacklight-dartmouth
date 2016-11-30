@@ -62,3 +62,43 @@
 2016-11-29T14:52:12-05:00  INFO Reading from testData/DCrecds10.mrc
 2016-11-29T14:52:12-05:00  INFO    Indexer with 2 processing threads, reader: Traject::MarcReader and writer: Traject::DebugWriter
 2016-11-29T14:52:12-05:00  INFO finished Indexer#process: 10 records in 0.009 seconds; 1166.7 records/second overall.
+2016-11-30T10:25:24-05:00  INFO traject (2.3.2) executing with: `-c /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_mapping.rb testData/DCrecds10.mrc`
+2016-11-30T10:25:24-05:00  INFO Reading from testData/DCrecds10.mrc
+2016-11-30T10:25:24-05:00  INFO    Indexer with 2 processing threads, reader: Traject::MarcReader and writer: Traject::DebugWriter
+2016-11-30T10:25:24-05:00  INFO finished Indexer#process: 10 records in 0.010 seconds; 962.5 records/second overall.
+2016-11-30T10:27:01-05:00  INFO traject (2.3.2) executing with: `-c /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_mapping.rb testData/DCrecds10.mrc`
+2016-11-30T10:27:01-05:00  INFO Reading from testData/DCrecds10.mrc
+2016-11-30T10:27:01-05:00  INFO    Indexer with 2 processing threads, reader: Traject::MarcReader and writer: Traject::DebugWriter
+2016-11-30T10:27:01-05:00  INFO finished Indexer#process: 10 records in 0.009 seconds; 1109.5 records/second overall.
+2016-11-30T10:28:10-05:00  INFO traject (2.3.2) executing with: `-c /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_mapping.rb testData/DCrecds10.mrc`
+2016-11-30T10:28:10-05:00  INFO Reading from testData/DCrecds10.mrc
+2016-11-30T10:28:10-05:00  INFO    Indexer with 2 processing threads, reader: Traject::MarcReader and writer: Traject::DebugWriter
+2016-11-30T10:28:10-05:00  INFO finished Indexer#process: 10 records in 0.009 seconds; 1070.4 records/second overall.
+2016-11-30T10:28:40-05:00  INFO traject (2.3.2) executing with: `-c /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_mapping.rb testData/DCrecds10.mrc`
+2016-11-30T10:28:40-05:00  INFO Reading from testData/DCrecds10.mrc
+2016-11-30T10:28:40-05:00  INFO    Indexer with 2 processing threads, reader: Traject::MarcReader and writer: Traject::DebugWriter
+2016-11-30T10:28:40-05:00  INFO finished Indexer#process: 10 records in 0.009 seconds; 1069.7 records/second overall.
+2016-11-30T10:29:34-05:00  INFO traject (2.3.2) executing with: `-c /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_mapping.rb testData/DCrecds10.mrc`
+2016-11-30T10:29:34-05:00  INFO Reading from testData/DCrecds10.mrc
+2016-11-30T10:29:34-05:00  INFO    Indexer with 2 processing threads, reader: Traject::MarcReader and writer: Traject::DebugWriter
+2016-11-30T10:29:34-05:00  INFO finished Indexer#process: 10 records in 0.010 seconds; 1043.8 records/second overall.
+2016-11-30T10:30:21-05:00  INFO traject (2.3.2) executing with: `-c /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_mapping.rb testData/DCrecds10.mrc`
+2016-11-30T10:30:21-05:00  INFO Reading from testData/DCrecds10.mrc
+2016-11-30T10:30:21-05:00  INFO    Indexer with 2 processing threads, reader: Traject::MarcReader and writer: Traject::DebugWriter
+2016-11-30T10:30:21-05:00  INFO finished Indexer#process: 10 records in 0.010 seconds; 993.4 records/second overall.
+2016-11-30T10:31:17-05:00  INFO traject (2.3.2) executing with: `-c /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_mapping.rb testData/DCrecds10.mrc`
+2016-11-30T10:31:17-05:00  INFO Reading from testData/DCrecds10.mrc
+2016-11-30T10:31:17-05:00  INFO    Indexer with 2 processing threads, reader: Traject::MarcReader and writer: Traject::DebugWriter
+2016-11-30T10:31:17-05:00  INFO finished Indexer#process: 10 records in 0.015 seconds; 678.4 records/second overall.
+2016-11-30T10:32:00-05:00  INFO traject (2.3.2) executing with: `-c /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_mapping.rb testData/DCrecds10.mrc`
+2016-11-30T10:32:00-05:00  INFO Reading from testData/DCrecds10.mrc
+2016-11-30T10:32:00-05:00  INFO    Indexer with 2 processing threads, reader: Traject::MarcReader and writer: Traject::DebugWriter
+2016-11-30T10:32:00-05:00  INFO finished Indexer#process: 10 records in 0.012 seconds; 800.1 records/second overall.
+2016-11-30T10:42:41-05:00  INFO traject (2.3.2) executing with: `-c /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_mapping.rb testData/DCrecds10.mrc`
+2016-11-30T10:42:41-05:00  INFO Reading from testData/DCrecds10.mrc
+2016-11-30T10:42:41-05:00  INFO    Indexer with 2 processing threads, reader: Traject::MarcReader and writer: Traject::DebugWriter
+2016-11-30T10:42:41-05:00  INFO finished Indexer#process: 10 records in 0.013 seconds; 778.0 records/second overall.
+2016-11-30T10:50:52-05:00  INFO traject (2.3.2) executing with: `-c /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_mapping.rb testData/DCrecds10.mrc`
+2016-11-30T10:50:52-05:00  INFO Reading from testData/DCrecds10.mrc
+2016-11-30T10:50:52-05:00  INFO    Indexer with 2 processing threads, reader: Traject::MarcReader and writer: Traject::DebugWriter
+2016-11-30T10:50:52-05:00  INFO finished Indexer#process: 10 records in 0.013 seconds; 750.1 records/second overall.
