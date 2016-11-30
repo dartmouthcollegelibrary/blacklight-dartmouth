@@ -122,9 +122,56 @@ to_field 'published_display', extract_marc('260a', :trim_punctuation => true, :a
 to_field 'published_vern_display', extract_marc('260a', :trim_punctuation => true, :alternate_script=>:only)
 to_field 'pub_date', marc_publication_date
 
-# Call Number fields
+# Call Number fields, added 090, would there be data in both?
 to_field 'lc_callnum_display', extract_marc('050ab:090ab', :first => true)
 to_field 'lc_1letter_facet', extract_marc('050ab:090ab', :first=>true, :translation_map=>'callnumber_map') do |rec, acc|
   # Just get the first letter to send to the translation map
   acc.map!{|x| x[0]}
+end
+alpha_pat = /\A([A-Z]{1,3})\d.*\Z/
+to_field 'lc_alpha_facet', extract_marc('050a:090a', :first=>true) do |rec, acc|
+  acc.map! do |x|
+    (m = alpha_pat.match(x)) ? m[1] : nil
+  end
+  acc.compact! # eliminate nils
+end
+to_field 'lc_b4cutter_facet', extract_marc('050a:090a', :first=>true)
+
+# URL Fields
+notfulltext = /abstract|description|sample text|table of contents|/i
+
+to_field('url_fulltext_display') do |rec, acc|
+  rec.fields('856').each do |f|
+    case f.indicator2
+      when '0'
+        f.find_all{|sf| sf.code == 'u'}.each do |url|
+          acc << url.value
+        end
+      when '2'
+        # do nothing
+      else
+        z3 = [f['z'], f['3']].join(' ')
+        unless notfulltext.match(z3)
+          acc << f['u'] unless f['u'].nil?
+        end
+    end
+  end
+end
+# Very similar to url_fulltext_display. Should DRY up.
+to_field 'url_suppl_display' do |rec, acc|
+  rec.fields('856').each do |f|
+    case f.indicator2
+      when '2'
+        f.find_all{|sf| sf.code == 'u'}.each do |url|
+          acc << url.value
+        end
+      when '0'
+        # do nothing
+      else
+        z3 = [f['z'], f['3']].join(' ')
+        if notfulltext.match(z3)
+          acc << f['u'] unless f['u'].nil?
+        end
+    end
+  end
 end
