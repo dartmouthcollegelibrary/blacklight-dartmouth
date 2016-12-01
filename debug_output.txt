@@ -1,64 +1,3 @@
-b6216642     author_addl_t             Zecchi, Barbara.
-b6216642     author_sort               Teor�ia y pr�actica de la adaptaci�on f�ilmica Barbara Zecchi (ed.).
-b6216642     format                    Book
-b6216642     id                        b6216642
-b6216642     isbn_t                    9788499381305 | 8499381308
-b6216642     language_facet            Spanish
-b6216642     lc_alpha_facet            PN
-b6216642     lc_b4cutter_facet         PN1993.5.S7
-b6216642     lc_callnum_display        PN1993.5.S7 T46 2012
-b6216642     material_type_display     352 pages
-b6216642     pub_date                  2012
-b6216642     source_t                  traject_test
-b6216642     subject_addl_t            Spain History. | Spain. | Film adaptations.
-b6216642     subject_geo_facet         Spain
-b6216642     subject_t                 Motion pictures | Film adaptations | Spanish literature | Film adaptations. | History.
-b6216642     subject_topic_facet       Motion pictures | Film adaptations | Spanish literature | History
-b6216642     text                      Teor�ia y pr�actica de la adaptaci�on f�ilmica / Barbara Zecchi (ed.). Primera edici�on. Madrid : Editorial Complutense, 2012. 352 pages ; 21 cm text txt rdacontent unmediated n rdamedia volume nc rdacarrier Includes bibliographical references. Theory and Practice of Film Adaptation focuses on practical examples of Spanish cinema. The common denominator of the 15 essays in this volume is the approach to adaptation and multiplication.  The essays are arranged chronologically (from adapting classics of the Golden Age to the transposition of the current screen works) and thematically (memory, politics, gender ...).  The book is not limited to the analysis of the film adaptation of literary works, but also covers the study of the celluloid version or other digital media texts, such as comics and video games.  Beyond fidelity as an essential criterion for assessing the artistic content, each essay analyzes the fundamental differences between the written word and the visual image, and reflects on the ideological implications of such adaptations. The essays were written by faculty from different American and Spanish universities.--Publisher description. Motion pictures Spain History. Film adaptations Spain. Spanish literature Film adaptations. Film adaptations. fast (OCoLC)fst01710491 History. fast (OCoLC)fst01411628 Zecchi, Barbara.
-b6216642     title_addl_t              Teor�ia y pr�actica de la adaptaci�on f�ilmica /
-b6216642     title_display             Teor�ia y pr�actica de la adaptaci�on f�ilmica
-b6216642     title_sort                Teor�ia y pr�actica de la adaptaci�on f�ilmica
-b6216642     title_t                   Teor�ia y pr�actica de la adaptaci�on f�ilmica /
-
-b6217080     author_addl_t             Atwell, Hayley, | D'Arcy, James, | Murray, Chad Michael, | Gjokaj, Enver. | Regan, Bridget. | Cooper, Dominic, | Markus, Christopher. | McFeely, Stephen. | Lee, Stan, | ABC Studios. | ABC Television Network. | Marvel Productions. | Buena Vista Home Entertainment (Firm)
-b6217080     author_sort               Agent Carter The complete first season an ABC Studios production ; Marvel Television ; [created by Christopher Markus & Stephen McFeeley].
-b6217080     format                    VideoDisc
-b6217080     id                        b6217080
-b6217080     language_facet            English
-b6217080     material_type_display     2 videodiscs (approximately 335 minutes)
-b6217080     pub_date                  2015
-b6217080     source_t                  traject_test
-b6217080     subject_addl_t            Drama.
-b6217080     subject_t                 Espionage | Good and evil | Action and adventure television programs. | Spy television programs. | Science fiction television programs. | Television programs. | Television programs for the hearing impaired.
-b6217080     subject_topic_facet       Espionage | Good and evil | Action and adventure television programs | Spy television programs | Science fiction television programs | Television programs | Television programs for the hearing impaired
-b6217080     text                      Marvel Agent Carter (Television program). Season 1. Agent Carter. The complete first season / an ABC Studios production ; Marvel Television ; [created by Christopher Markus & Stephen McFeeley]. Agent Carter. Season one Title appears on resource as: Marvel Agent Carter. The complete first season Also known as: Marvel's Agent Carter. The complete first season Burbank, California : Distributed by Buena Vista Home Entertainment, [2015] 2 videodiscs (approximately 335 minutes) : sound, color ; 4 3/4 in. two-dimensional moving image tdi rdacontent video v rdamedia videodisc vd rdacarrier digital optical surround 5.1 Dolby rda video file DVD video rda Television program. English dialogue; English SDH (subtitles for the deaf and hard of hearing). Creators: Christopher Markus, Stephen McFeely; writers: Jack Kirby, Stan Lee. Disc 1, episodes 1-5. Now is not the end ; Bridge and tunnel -- Time and tide -- The Blitzkrieg button -- The iron ceiling -- Disc 2, episodes 6-8. A sin to err -- Snafu -- Velediction. Bonus features: Bloopers of Agent Carter Hayley Atwell, James D'Arcy, Chad Michael Murray, Enver Gjokaj, Bridget Regan, Dominic Cooper. Rating: TV-PG LV. Marvel's latest television series, Agent Carter, takes viewers on the journey Agent Peggy Carter of Captain America fame. After the war, Peggy finds herself begrudgingly doing administrative work for the Strategic Science Reserve while coping with the loss of her love, Steve Rogers. Peggy's life takes an unexpected turn when she is contacted by Howard Stark and given a  mission to find those who accused Stark of releasing weapons of mass destruction. With the help of Stark's butler, Jarvis, Peggy must secretly find and destroy the lost weapons to clear the Stark name, all while putting her own life and freedom on the line. DVD, NTSC, region 1, widescreen (16x9 ; 1.78:1); 5.1 Dolby digital. Espionage Drama. Good and evil Drama. Action and adventure television programs. lcgft Spy television programs. lcgft Science fiction television programs. lcgft Television programs. lcgft Television programs for the hearing impaired. lcgft Atwell, Hayley, 1982- D'Arcy, James, 1975- Murray, Chad Michael, 1981- Gjokaj, Enver. Regan, Bridget. Cooper, Dominic, 1978- Markus, Christopher. McFeely, Stephen. Lee, Stan, 1922- ABC Studios. ABC Television Network. Marvel Productions. Buena Vista Home Entertainment (Firm)
-b6217080     title_addl_t              Marvel Agent Carter (Television program). Season 1. | Agent Carter. The complete first season / | Agent Carter. Season one | Marvel Agent Carter. The complete first season | Marvel's Agent Carter. The complete first season
-b6217080     title_display             Agent Carter
-b6217080     title_sort                Agent Carter
-b6217080     title_t                   Agent Carter.
-
-b6025444     author_addl_t             Feldman, Morton,
-b6025444     author_display            Asplund, Christian, 1964-
-b6025444     author_sort               Asplund, Christian, 1964-   wind for piano (2006-2007) Christian Asplund
-b6025444     author_t                  Asplund, Christian,
-b6025444     format                    MusicalScore
-b6025444     id                        b6025444
-b6025444     lc_alpha_facet            M
-b6025444     lc_b4cutter_facet         M25.A87
-b6025444     lc_callnum_display        M25.A87 W5 2014
-b6025444     material_type_display     1 score (7 pages)
-b6025444     pub_date                  2007
-b6025444     source_t                  traject_test
-b6025444     subject_t                 Piano music. | Art music. | Scores.
-b6025444     subject_topic_facet       Piano music | Art music | Scores
-b6025444     subtitle_display          for piano (2006-2007)
-b6025444     subtitle_t                for piano (2006-2007) /
-b6025444     text                      Asplund, Christian, 1964- The wind : for piano (2006-2007) / Christian Asplund. Lebanon, NH : Frog Peak Music, [2007?] 1 score (7 pages) ; 28 cm notated music ntm rdacontent unmediated n rdamedia volume nc rdacarrier piano 1 1 lcmpt Staff notation. In seven movements. Dedicated to Morton Feldman. I. The wind bloweth -- The wind II -- The wind III -- The wind IV -- The wind V -- The wind VI : flowing -- The wind VII. Piano music. Art music. lcgft Scores. lcgft Art music. fast (OCoLC)fst01920007 Scores. fast (OCoLC)fst01692898 Feldman, Morton, 1926-1987.
-b6025444     title_addl_t              The wind : for piano (2006-2007) /
-b6025444     title_display             The wind
-b6025444     title_sort                wind : for piano (2006-2007)
-b6025444     title_t                   The wind :
-
 b6025508     author_display            Rzewski, Frederic.
 b6025508     author_sort               Rzewski, Frederic.   Night crossing with fisherman two pianos Frederic Rzewski
 b6025508     author_t                  Rzewski, Frederic.
@@ -129,30 +68,27 @@ b6199862     title_display             Ink against the devil
 b6199862     title_sort                Ink against the devil : Luther and his opponents
 b6199862     title_t                   Ink against the devil :
 
-b6200006     author_addl_t             Serrano Migall�on, Fernando. | Altamira, Pilar.
-b6200006     author_display            Altamira, Rafael, 1866-1951.
-b6200006     author_sort               Altamira, Rafael, 1866-1951.   Lecturas americanas Rafael Altamira Crevea ; estudio preliminar de Fernando Serrano Migall�on ; pr�ologo de Pilar Altamira
-b6200006     author_t                  Altamira, Rafael,
-b6200006     format                    Book
-b6200006     id                        b6200006
-b6200006     isbn_t                    9788492489671 | 8492489677
-b6200006     language_facet            Spanish
-b6200006     lc_alpha_facet            PQ
-b6200006     lc_b4cutter_facet         PQ7081
-b6200006     lc_callnum_display        PQ7081 .A58 2014
-b6200006     material_type_display     780 pages
-b6200006     pub_date                  2014
-b6200006     source_t                  traject_test
-b6200006     subject_addl_t            20th century History and criticism. | 20th century.
-b6200006     subject_era_facet         20th century
-b6200006     subject_t                 Spanish American literature | Criticism, interpretation, etc.
-b6200006     subject_topic_facet       Spanish American literature | Criticism, interpretation, etc
-b6200006     text                      Altamira, Rafael, 1866-1951. Lecturas americanas / Rafael Altamira Crevea ; estudio preliminar de Fernando Serrano Migall�on ; pr�ologo de Pilar Altamira. Pamplona : Analecta Editorial ; [Madrid] : Fundaci�on L�azaro Galdiano, [2014] �2014 780 pages ; 21 cm. text txt rdacontent unmediated n rdamedia volume nc rdacarrier Biblioteca de la Espa�na moderna ; 2 Includes bibliographical references. Spanish American literature 20th century History and criticism. Spanish American literature 20th century. Criticism, interpretation, etc. fast (OCoLC)fst01411635 Serrano Migall�on, Fernando. Altamira, Pilar. Biblioteca de La Espa�na moderna ; 2.
-b6200006     title_addl_t              Lecturas americanas /
-b6200006     title_display             Lecturas americanas
-b6200006     title_series_t            Biblioteca de la Espa�na moderna ; 2
-b6200006     title_sort                Lecturas americanas
-b6200006     title_t                   Lecturas americanas /
+b6025444     author_addl_t             Feldman, Morton,
+b6025444     author_display            Asplund, Christian, 1964-
+b6025444     author_sort               Asplund, Christian, 1964-   wind for piano (2006-2007) Christian Asplund
+b6025444     author_t                  Asplund, Christian,
+b6025444     format                    MusicalScore
+b6025444     id                        b6025444
+b6025444     lc_alpha_facet            M
+b6025444     lc_b4cutter_facet         M25.A87
+b6025444     lc_callnum_display        M25.A87 W5 2014
+b6025444     material_type_display     1 score (7 pages)
+b6025444     pub_date                  2007
+b6025444     source_t                  traject_test
+b6025444     subject_t                 Piano music. | Art music. | Scores.
+b6025444     subject_topic_facet       Piano music | Art music | Scores
+b6025444     subtitle_display          for piano (2006-2007)
+b6025444     subtitle_t                for piano (2006-2007) /
+b6025444     text                      Asplund, Christian, 1964- The wind : for piano (2006-2007) / Christian Asplund. Lebanon, NH : Frog Peak Music, [2007?] 1 score (7 pages) ; 28 cm notated music ntm rdacontent unmediated n rdamedia volume nc rdacarrier piano 1 1 lcmpt Staff notation. In seven movements. Dedicated to Morton Feldman. I. The wind bloweth -- The wind II -- The wind III -- The wind IV -- The wind V -- The wind VI : flowing -- The wind VII. Piano music. Art music. lcgft Scores. lcgft Art music. fast (OCoLC)fst01920007 Scores. fast (OCoLC)fst01692898 Feldman, Morton, 1926-1987.
+b6025444     title_addl_t              The wind : for piano (2006-2007) /
+b6025444     title_display             The wind
+b6025444     title_sort                wind : for piano (2006-2007)
+b6025444     title_t                   The wind :
 
 b6200007     author_addl_t             Rivero Fern�andez, M. (Monica)
 b6200007     author_display            M�endez Bejarano, Mario.
@@ -224,4 +160,68 @@ b6216639     title_display             Los libros y la libertad
 b6216639     title_series_t            RBA Actualidad. Ideas
 b6216639     title_sort                libros y la libertad
 b6216639     title_t                   Los libros y la libertad /
+
+b6216642     author_addl_t             Zecchi, Barbara.
+b6216642     author_sort               Teor�ia y pr�actica de la adaptaci�on f�ilmica Barbara Zecchi (ed.).
+b6216642     format                    Book
+b6216642     id                        b6216642
+b6216642     isbn_t                    9788499381305 | 8499381308
+b6216642     language_facet            Spanish
+b6216642     lc_alpha_facet            PN
+b6216642     lc_b4cutter_facet         PN1993.5.S7
+b6216642     lc_callnum_display        PN1993.5.S7 T46 2012
+b6216642     material_type_display     352 pages
+b6216642     pub_date                  2012
+b6216642     source_t                  traject_test
+b6216642     subject_addl_t            Spain History. | Spain. | Film adaptations.
+b6216642     subject_geo_facet         Spain
+b6216642     subject_t                 Motion pictures | Film adaptations | Spanish literature | Film adaptations. | History.
+b6216642     subject_topic_facet       Motion pictures | Film adaptations | Spanish literature | History
+b6216642     text                      Teor�ia y pr�actica de la adaptaci�on f�ilmica / Barbara Zecchi (ed.). Primera edici�on. Madrid : Editorial Complutense, 2012. 352 pages ; 21 cm text txt rdacontent unmediated n rdamedia volume nc rdacarrier Includes bibliographical references. Theory and Practice of Film Adaptation focuses on practical examples of Spanish cinema. The common denominator of the 15 essays in this volume is the approach to adaptation and multiplication.  The essays are arranged chronologically (from adapting classics of the Golden Age to the transposition of the current screen works) and thematically (memory, politics, gender ...).  The book is not limited to the analysis of the film adaptation of literary works, but also covers the study of the celluloid version or other digital media texts, such as comics and video games.  Beyond fidelity as an essential criterion for assessing the artistic content, each essay analyzes the fundamental differences between the written word and the visual image, and reflects on the ideological implications of such adaptations. The essays were written by faculty from different American and Spanish universities.--Publisher description. Motion pictures Spain History. Film adaptations Spain. Spanish literature Film adaptations. Film adaptations. fast (OCoLC)fst01710491 History. fast (OCoLC)fst01411628 Zecchi, Barbara.
+b6216642     title_addl_t              Teor�ia y pr�actica de la adaptaci�on f�ilmica /
+b6216642     title_display             Teor�ia y pr�actica de la adaptaci�on f�ilmica
+b6216642     title_sort                Teor�ia y pr�actica de la adaptaci�on f�ilmica
+b6216642     title_t                   Teor�ia y pr�actica de la adaptaci�on f�ilmica /
+
+b6200006     author_addl_t             Serrano Migall�on, Fernando. | Altamira, Pilar.
+b6200006     author_display            Altamira, Rafael, 1866-1951.
+b6200006     author_sort               Altamira, Rafael, 1866-1951.   Lecturas americanas Rafael Altamira Crevea ; estudio preliminar de Fernando Serrano Migall�on ; pr�ologo de Pilar Altamira
+b6200006     author_t                  Altamira, Rafael,
+b6200006     format                    Book
+b6200006     id                        b6200006
+b6200006     isbn_t                    9788492489671 | 8492489677
+b6200006     language_facet            Spanish
+b6200006     lc_alpha_facet            PQ
+b6200006     lc_b4cutter_facet         PQ7081
+b6200006     lc_callnum_display        PQ7081 .A58 2014
+b6200006     material_type_display     780 pages
+b6200006     pub_date                  2014
+b6200006     source_t                  traject_test
+b6200006     subject_addl_t            20th century History and criticism. | 20th century.
+b6200006     subject_era_facet         20th century
+b6200006     subject_t                 Spanish American literature | Criticism, interpretation, etc.
+b6200006     subject_topic_facet       Spanish American literature | Criticism, interpretation, etc
+b6200006     text                      Altamira, Rafael, 1866-1951. Lecturas americanas / Rafael Altamira Crevea ; estudio preliminar de Fernando Serrano Migall�on ; pr�ologo de Pilar Altamira. Pamplona : Analecta Editorial ; [Madrid] : Fundaci�on L�azaro Galdiano, [2014] �2014 780 pages ; 21 cm. text txt rdacontent unmediated n rdamedia volume nc rdacarrier Biblioteca de la Espa�na moderna ; 2 Includes bibliographical references. Spanish American literature 20th century History and criticism. Spanish American literature 20th century. Criticism, interpretation, etc. fast (OCoLC)fst01411635 Serrano Migall�on, Fernando. Altamira, Pilar. Biblioteca de La Espa�na moderna ; 2.
+b6200006     title_addl_t              Lecturas americanas /
+b6200006     title_display             Lecturas americanas
+b6200006     title_series_t            Biblioteca de la Espa�na moderna ; 2
+b6200006     title_sort                Lecturas americanas
+b6200006     title_t                   Lecturas americanas /
+
+b6217080     author_addl_t             Atwell, Hayley, | D'Arcy, James, | Murray, Chad Michael, | Gjokaj, Enver. | Regan, Bridget. | Cooper, Dominic, | Markus, Christopher. | McFeely, Stephen. | Lee, Stan, | ABC Studios. | ABC Television Network. | Marvel Productions. | Buena Vista Home Entertainment (Firm)
+b6217080     author_sort               Agent Carter The complete first season an ABC Studios production ; Marvel Television ; [created by Christopher Markus & Stephen McFeeley].
+b6217080     format                    VideoDisc
+b6217080     id                        b6217080
+b6217080     language_facet            English
+b6217080     material_type_display     2 videodiscs (approximately 335 minutes)
+b6217080     pub_date                  2015
+b6217080     source_t                  traject_test
+b6217080     subject_addl_t            Drama.
+b6217080     subject_t                 Espionage | Good and evil | Action and adventure television programs. | Spy television programs. | Science fiction television programs. | Television programs. | Television programs for the hearing impaired.
+b6217080     subject_topic_facet       Espionage | Good and evil | Action and adventure television programs | Spy television programs | Science fiction television programs | Television programs | Television programs for the hearing impaired
+b6217080     text                      Marvel Agent Carter (Television program). Season 1. Agent Carter. The complete first season / an ABC Studios production ; Marvel Television ; [created by Christopher Markus & Stephen McFeeley]. Agent Carter. Season one Title appears on resource as: Marvel Agent Carter. The complete first season Also known as: Marvel's Agent Carter. The complete first season Burbank, California : Distributed by Buena Vista Home Entertainment, [2015] 2 videodiscs (approximately 335 minutes) : sound, color ; 4 3/4 in. two-dimensional moving image tdi rdacontent video v rdamedia videodisc vd rdacarrier digital optical surround 5.1 Dolby rda video file DVD video rda Television program. English dialogue; English SDH (subtitles for the deaf and hard of hearing). Creators: Christopher Markus, Stephen McFeely; writers: Jack Kirby, Stan Lee. Disc 1, episodes 1-5. Now is not the end ; Bridge and tunnel -- Time and tide -- The Blitzkrieg button -- The iron ceiling -- Disc 2, episodes 6-8. A sin to err -- Snafu -- Velediction. Bonus features: Bloopers of Agent Carter Hayley Atwell, James D'Arcy, Chad Michael Murray, Enver Gjokaj, Bridget Regan, Dominic Cooper. Rating: TV-PG LV. Marvel's latest television series, Agent Carter, takes viewers on the journey Agent Peggy Carter of Captain America fame. After the war, Peggy finds herself begrudgingly doing administrative work for the Strategic Science Reserve while coping with the loss of her love, Steve Rogers. Peggy's life takes an unexpected turn when she is contacted by Howard Stark and given a  mission to find those who accused Stark of releasing weapons of mass destruction. With the help of Stark's butler, Jarvis, Peggy must secretly find and destroy the lost weapons to clear the Stark name, all while putting her own life and freedom on the line. DVD, NTSC, region 1, widescreen (16x9 ; 1.78:1); 5.1 Dolby digital. Espionage Drama. Good and evil Drama. Action and adventure television programs. lcgft Spy television programs. lcgft Science fiction television programs. lcgft Television programs. lcgft Television programs for the hearing impaired. lcgft Atwell, Hayley, 1982- D'Arcy, James, 1975- Murray, Chad Michael, 1981- Gjokaj, Enver. Regan, Bridget. Cooper, Dominic, 1978- Markus, Christopher. McFeely, Stephen. Lee, Stan, 1922- ABC Studios. ABC Television Network. Marvel Productions. Buena Vista Home Entertainment (Firm)
+b6217080     title_addl_t              Marvel Agent Carter (Television program). Season 1. | Agent Carter. The complete first season / | Agent Carter. Season one | Marvel Agent Carter. The complete first season | Marvel's Agent Carter. The complete first season
+b6217080     title_display             Agent Carter
+b6217080     title_sort                Agent Carter
+b6217080     title_t                   Agent Carter.
 

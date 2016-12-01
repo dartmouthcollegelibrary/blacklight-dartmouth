@@ -1,40 +1,7 @@
-# Usage: traject -c config/traject/dartcoll_mapping.rb [list of paths to MARC files]
+module DclMapping
 
-# $: means $LOAD_PATH, .unshift means add to the beginning, need this line to find translation maps
-$:.unshift './config'
-
-require 'traject/marc_reader'
-require 'traject/debug_writer'
-
-# To have access to various built-in logic
-# for pulling things out of MARC21, like `marc_languages`
-require 'traject/macros/marc21_semantics'
-extend  Traject::Macros::Marc21Semantics
-
-# To have access to the traject marc format/carrier classifier
-require 'traject/macros/marc_format_classifier'
-extend Traject::Macros::MarcFormats
-
-# bring in needed functions
-# found in blacklight/marc/indexer
-ATOZ = ('a'..'z').to_a.join('')
-ATOU = ('a'..'u').to_a.join('')
-
-# this mixin defines lambda factory method get_format for legacy marc formats
-require 'blacklight/marc/indexer/formats'
-extend Blacklight::Marc::Indexer::Formats
-
-require_relative '../../app/models/dcl_macros'
-extend DclMacros
-
-settings do
-  provide "reader_class_name", "Traject::MarcReader"
-  provide "marc_source.type", "binary"
-  provide "writer_class_name", "Traject::DebugWriter"
-  provide "output_file", "debug_output.txt"
-  provide 'processing_thread_pool', 2
-  provide 'log.file', 'traject.log'
-end
+  require_relative '../../app/models/dcl_macros'
+  extend DclMacros
 
 # get local record id
 to_field "id", record_id
@@ -175,4 +142,6 @@ to_field 'url_suppl_display' do |rec, acc|
         end
     end
   end
+end
+
 end
