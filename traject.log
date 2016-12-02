@@ -126,3 +126,26 @@
 2016-12-01T15:58:46-05:00  INFO Reading from testData/DCrecds10.mrc
 2016-12-01T15:58:46-05:00  INFO    Indexer with 2 processing threads, reader: Traject::MarcReader and writer: Traject::DebugWriter
 2016-12-01T15:58:46-05:00  INFO finished Indexer#process: 10 records in 0.013 seconds; 757.2 records/second overall.
+2016-12-01T16:04:24-05:00  INFO traject (2.3.2) executing with: `-c /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_mapping.rb testData/aacr2testrecords.out`
+2016-12-01T16:04:24-05:00  INFO Reading from testData/aacr2testrecords.out
+2016-12-01T16:04:24-05:00  INFO    Indexer with 2 processing threads, reader: Traject::MarcReader and writer: Traject::DebugWriter
+2016-12-01T16:04:24-05:00 ERROR Unexpected error on record id `ocm38285925 /b1032643` at file position 6
+    while executing (to_field format at /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_mapping.rb:54)
+    Exception: NoMethodError: undefined method `extract_marc' for Blacklight::Marc::Indexer::Formats::FormatMap:Module
+    /usr/local/opt/rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/blacklight-marc-6.1.1/lib/blacklight/marc/indexer/formats.rb:142:in `map_leader'
+
+2016-12-01T16:04:24-05:00 ERROR Unexpected error on record id `ocm06544163 /b1035544` at file position 7
+    while executing (to_field format at /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_mapping.rb:54)
+    Exception: NoMethodError: undefined method `extract_marc' for Blacklight::Marc::Indexer::Formats::FormatMap:Module
+    /usr/local/opt/rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/blacklight-marc-6.1.1/lib/blacklight/marc/indexer/formats.rb:142:in `map_leader'
+
+2016-12-01T16:04:24-05:00 FATAL Traject::CommandLine: Unexpected exception, terminating execution: #<NoMethodError: undefined method `extract_marc' for Blacklight::Marc::Indexer::Formats::FormatMap:Module>
+2016-12-01T16:06:47-05:00  INFO traject (2.3.2) executing with: `-c /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_mapping.rb testData/preaacr2testrecords.out`
+2016-12-01T16:06:47-05:00  INFO Reading from testData/preaacr2testrecords.out
+2016-12-01T16:06:47-05:00  INFO    Indexer with 2 processing threads, reader: Traject::MarcReader and writer: Traject::DebugWriter
+2016-12-01T16:06:47-05:00 ERROR Unexpected error on record id `88-S115/b1001522` at file position 1
+    while executing (to_field format at /Users/d35185r/RubymineProjects/discovery-pilot/blacklight-dartmouth/config/traject/dartcoll_mapping.rb:54)
+    Exception: NoMethodError: undefined method `extract_marc' for Blacklight::Marc::Indexer::Formats::FormatMap:Module
+    /usr/local/opt/rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/blacklight-marc-6.1.1/lib/blacklight/marc/indexer/formats.rb:142:in `map_leader'
+
+2016-12-01T16:06:47-05:00 FATAL Traject::CommandLine: Unexpected exception, terminating execution: #<NoMethodError: undefined method `extract_marc' for Blacklight::Marc::Indexer::Formats::FormatMap:Module>
