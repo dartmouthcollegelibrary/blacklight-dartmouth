@@ -5,6 +5,10 @@ $:.unshift './config'
 
 require 'traject/marc_reader'
 require 'traject/debug_writer'
+require 'traject/marc_extractor'
+
+#require 'traject/macros/marc21'
+#extend Traject::Macros::Marc21
 
 # To have access to various built-in logic
 # for pulling things out of MARC21, like `marc_languages`
@@ -21,8 +25,11 @@ ATOZ = ('a'..'z').to_a.join('')
 ATOU = ('a'..'u').to_a.join('')
 
 # this mixin defines lambda factory method get_format for legacy marc formats
-require 'blacklight/marc/indexer/formats'
-extend Blacklight::Marc::Indexer::Formats
+#require 'blacklight/marc/indexer/formats'
+#extend Blacklight::Marc::Indexer::Formats
+
+require_relative '../../app/models/dcl_formats'
+extend DclFormats
 
 require_relative '../../app/models/dcl_macros'
 extend DclMacros
@@ -55,7 +62,7 @@ to_field "format", get_format
 
 to_field "isbn_t", extract_marc('020a', :separator=>nil) do |rec, acc|
   orig = acc.dup
-  acc.map!{|x| StdNum::ISBN.allNormalizedValues(x)}
+  acc.map!{|x| StdNum::ISBN.allNormalizedValues(x)} #where is stdnum::isbn?
   acc << orig
   acc.flatten!
   acc.uniq!
