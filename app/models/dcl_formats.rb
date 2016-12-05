@@ -143,7 +143,7 @@ module DclFormats
             #formatCode = extract_marc("008[21]", first: true) do |r,a|
               extractor = Traject::MarcExtractor.new('008[21]', :first => true)
               lambda do |r, a|
-                a << extractor.extract(r)
+                a << extractor.extract(r).first
                 format_code = a.upcase
                 if format_code == 'N'
                   vals << 'Newspaper'
