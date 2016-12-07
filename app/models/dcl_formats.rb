@@ -1,6 +1,7 @@
+include Traject::Macros::Marc21
+
 module DclFormats
   module FormatMap
-
     def self.map007(v, vals)
       field007hasC = false
       v = v.upcase
@@ -140,20 +141,16 @@ module DclFormats
             vals << ((field007hasC) ? "eBook" : "Book")
           elsif f_000 == 'AS'
             # Look in 008 to determine what type of Continuing Resource
-            #formatCode = extract_marc("008[21]", first: true) do |r,a|
-              extractor = Traject::MarcExtractor.new('008[21]', :first => true)
-              lambda do |r, a|
-                a << extractor.extract(r).first
-                format_code = a.upcase
-                if format_code == 'N'
-                  vals << 'Newspaper'
-                elsif format_code == 'P'
-                  vals << 'Journal'
-                else
-                  vals << 'Serial'
-                end
+            formatCode = extract_marc('008[21]', first: true) do |r,a|
+              format_code = a.upcase
+              if format_code == 'N'
+                vals << 'Newspaper'
+              elsif format_code == 'P'
+                vals << 'Journal'
+              else
+                vals << 'Serial'
               end
-            #end
+            end
           end
       end
       vals

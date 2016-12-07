@@ -11,7 +11,7 @@ require 'traject/debug_writer'
 # To have access to various built-in logic
 # for pulling things out of MARC21, like `marc_languages`
 require 'traject/macros/marc21_semantics'
-extend  Traject::Macros::Marc21Semantics
+extend Traject::Macros::Marc21Semantics
 
 # To have access to the traject marc format/carrier classifier
 require 'traject/macros/marc_format_classifier'
