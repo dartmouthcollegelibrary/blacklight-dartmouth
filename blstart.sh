@@ -1,3 +1,3 @@
 #!/bin/bash
-rake jetty:start
-rails server
+rake jetty:start >>log/script.log 2>&1 &
+rails server >>log/script.log 2>&1 &
