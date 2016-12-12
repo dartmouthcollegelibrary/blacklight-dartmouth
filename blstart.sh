@@ -1,3 +1,3 @@
 #!/bin/bash
-rake jetty:db
+rake jetty:start
 rails server
