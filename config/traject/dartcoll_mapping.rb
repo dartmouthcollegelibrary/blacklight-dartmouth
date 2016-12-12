@@ -7,6 +7,7 @@ $:.unshift './app/models'
 require 'library_stdnums'
 require 'traject/marc_reader'
 require 'traject/debug_writer'
+require 'traject/macros/marc21'
 
 # To have access to various built-in logic
 # for pulling things out of MARC21, like `marc_languages`

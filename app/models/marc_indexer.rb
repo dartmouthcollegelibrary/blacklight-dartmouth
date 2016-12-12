@@ -1,5 +1,7 @@
 $:.unshift './config'
-require_relative 'dcl_macros'
+$:.unshift './app/models'
+
+require 'dcl_macros'
 
 class MarcIndexer < Blacklight::Marc::Indexer
   # this mixin defines lambda factory method get_format for legacy marc formats
