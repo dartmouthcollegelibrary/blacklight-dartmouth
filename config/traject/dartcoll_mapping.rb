@@ -1,4 +1,5 @@
 # Usage: traject -c config/traject/dartcoll_mapping.rb [list of paths to MARC files]
+# if want bundler to set up traject env from Gemfile do: bundle exec traject -c ...
 
 # $: means $LOAD_PATH, .unshift means add to the beginning, need this line to find translation maps
 $:.unshift './config'

@@ -1,4 +1,5 @@
 # Usage: traject -c config/traject/mapping_test.rb [list of paths to MARC files]
+# bundle exec traject -d -c ./config/traject/mapping_test.rb ./testdata/aacr2testrecordsutf8.out
 
 # $: means $LOAD_PATH, .unshift means add to the beginning, need this line to find translation maps
 $:.unshift './config'
@@ -21,6 +22,7 @@ settings do
   provide "output_file", "debug_output2.txt"
   provide 'processing_thread_pool', 2
   provide 'log.file', 'traject.log'
+  provide 'log.error_file', 'traject_error.log'
 end
 
 to_field "id", record_id
