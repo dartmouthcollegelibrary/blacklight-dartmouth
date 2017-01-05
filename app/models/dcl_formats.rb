@@ -2,12 +2,12 @@ include Traject::Macros::Marc21
 
 module DclFormats
   module FormatMap
-    def self.map007(v, vals)
+    def self.map007(v,vals)
       field007hasC = false
       v = v.upcase
       case
         when (v.start_with? 'A')
-          vals << (v == 'AD') ? 'Atlas' : 'Map'
+          vals << ((v == 'AD') ? 'Atlas' : 'Map')
         when (v.start_with? 'C')
           case
             when (v == "CA")
@@ -109,7 +109,7 @@ module DclFormats
       field007hasC
     end
 
-    def self.map_leader(f_000,field007hasC,vals)
+    def self.map_leader(record,f_000,field007hasC,vals)
       f_000 = f_000.upcase
       case
         when (f_000.start_with? 'C')
@@ -141,8 +141,9 @@ module DclFormats
             vals << ((field007hasC) ? "eBook" : "Book")
           elsif f_000 == 'AS'
             # Look in 008 to determine what type of Continuing Resource
-            formatCode = extract_marc('008[21]', first: true) do |r,a|
-              format_code = a.upcase
+            extractor = Traject::MarcExtractor.new('008[21]')
+            extractor.extract(record).select do |v|
+              format_code = v.upcase
               if format_code == 'N'
                 vals << 'Newspaper'
               elsif format_code == 'P'
@@ -177,12 +178,12 @@ module DclFormats
         else
           # check the Leader - this is NOT a repeating field
           # if we find a matching value there, grab it and return.
-          FormatMap.map_leader(record.leader[6,2],field007hasC,vals)
+          FormatMap.map_leader(record,record.leader[6,2],field007hasC,vals)
           unless vals.empty?
             vals.uniq!
             accumulator.concat vals
           else
-            FormatMap.map_leader(record.leader[6],field007hasC,vals)
+            FormatMap.map_leader(record,record.leader[6],field007hasC,vals)
             if vals.empty?
               accumulator.concat ['Unknown']
             else
